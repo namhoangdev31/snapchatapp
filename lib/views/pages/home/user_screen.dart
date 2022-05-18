@@ -215,7 +215,7 @@ class _UserInfoScreenState extends State<UserInfoScreen>
                       ),
                       Tab(
                         icon: Icon(
-                          Icons.video_collection,
+                          Icons.ondemand_video,
                           color: Colors.black,
                         ),
                       ),

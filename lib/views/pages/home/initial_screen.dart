@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:snapchatapp/views/pages/login_screen.dart';
 
 import '../../../widgets/RéuableButton.dart';
+import '../../../widgets/video_player_item.dart';
 
 
 //Constants

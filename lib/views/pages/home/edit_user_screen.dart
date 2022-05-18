@@ -105,12 +105,12 @@ class EditUserInfoScreen extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    top: 20,
-                    right: 0,
+                    top: 30,
+                    left: 0,
                     child: IconButton(
                       iconSize: 40,
                       icon: const Icon(
-                        Icons.backspace,
+                        Icons.arrow_back,
                         color: Colors.black,
                       ),
                       onPressed: () {
@@ -133,7 +133,7 @@ class EditUserInfoScreen extends StatelessWidget {
                             children: [
                               CustomTextFormField(
                                   controller: nameController,
-                                  text: 'Full-Name',
+                                  text: 'Full Name',
                                   hint: 'Nguyen Hoang Nam',
                                   onSave: (value) {
                                     //controller.userPwd = value!;

@@ -74,8 +74,8 @@ class ChatScreen extends StatelessWidget {
                       child: Row(
                         children: [
                           const Icon(
-                            Icons.people_alt_rounded,
-                            color: Colors.grey,
+                            Icons.people_rounded,
+                            color: Colors.lightBlueAccent,
                           ),
                           const SizedBox(
                             width: 10,
@@ -83,9 +83,9 @@ class ChatScreen extends StatelessWidget {
                           CustomText(
                             alignment: Alignment.bottomLeft,
                             fontsize: 30,
-                            text: 'Chatted People',
+                            text: 'Friends',
                             fontFamily: 'Popins',
-                            color: Colors.grey,
+                            color: Colors.lightBlueAccent,
                           ),
                         ],
                       ),

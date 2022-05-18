@@ -41,10 +41,10 @@ class VideoScreen extends StatelessWidget {
           centerTitle: true,
           leading: const Text(''),
           title: const Text(
-            'Everybody',
+            'SNAPCHAT',
             style: TextStyle(
-              color: Colors.black38,
-              fontSize: 55,
+              color: Colors.lightBlueAccent,
+              fontSize: 40,
               fontFamily: 'Poppins-Regular',
             ),
           ),
@@ -76,8 +76,8 @@ class VideoScreen extends StatelessWidget {
                       child: Row(
                         children: [
                           const Icon(
-                            Icons.people_alt_rounded,
-                            color: Colors.grey,
+                            Icons.people_rounded,
+                            color: Colors.lightBlueAccent,
                           ),
                           const SizedBox(
                             width: 10,
@@ -85,9 +85,9 @@ class VideoScreen extends StatelessWidget {
                           CustomText(
                             alignment: Alignment.bottomLeft,
                             fontsize: 20,
-                            text: 'People',
+                            text: 'People in server',
                             fontFamily: 'Popins',
-                            color: Colors.grey,
+                            color: Colors.lightBlueAccent,
                           ),
                         ],
                       ),
